@@ -1,0 +1,114 @@
+//
+//	Translation by CydiaGeek
+//
+
+// RootVC
+"Backup" = "Backup";
+"Restore" = "Ripristino";
+"Credits" = "Crediti";
+"Backups" = "Backups";
+"Easily backup and restore your tweaks" = "Esegui facilmente un backup e rispristina i tuoi tweaks";
+
+"Standard" = "Standard";
+"Developer" = "Sviluppatore";
+
+"Please confirm that you have adequate free storage before proceeding:" = "Per favore conferma che tu abbia un adeguato spazio disponibile prima di procedere:";
+"Are you sure that you want to restore from %@?" = "Sei sicuro che vuoi ripristinare %@?";
+"Yes" = "Si";
+"No" = "No";
+"Please note:" = "Per favore nota:";
+"You have chosen to restore from a developer backup. This backup includes bootstrap packages." = "Hai scelto di ripristinare da un backup sviluppatore. Questo backup include pacchetti bootstrap.";
+"Please confirm that you understand this and still wish to proceed with the restore" = "Per favore conferma che l'hai capito e desideri ancora procedere con il ripristino";
+
+"Confirm" = "Conferma";
+"Cancel" = "Cancella";
+
+"Tweak backup completed successfully in %@ seconds!" = "Backup Tweak completato con successo in %@ secondi!";
+"Your backup can be found in\n%@" = "Il tuo backup può essere trovato in \n%@";
+"Choose a post-restore command:" = "Scegli un comando per il dopo ripristino:";
+"None" = "Nessuno";
+"Export" = "Esporta";
+"Okay" = "Okay";
+
+"The following packages are not properly installed/configured and were skipped:\n%@" = "I seguenti pacchetti non sono propriamente installati/configurati e sono stati saltati";
+
+// ProgressVC
+"Progress" = "Progresso";
+"Waiting" = "In attesa";
+"Completed" = "Completato";
+"In-progress" = "In-progresso";
+
+"Determining user packages" = "Determinando i pacchetti utente";
+"Determining installed packages" = "Determinando i pacchetti installati";
+"Gathering files for packages" = "Assembrando i files per i pacchetti";
+"Building debs from files" = "Costruendo i debs dai files";
+"Creating backup from debs" = "Creando il backup dai debs";
+
+"Completing pre-restore checks" = "Completando il controllo del pre ripristino";
+"Unpacking backup" = "Spacchettando il backup";
+"Refreshing APT sources" = "Rigenerando le sorgenti APT";
+"Installing debs" = "Installando i debs";
+
+// BackupsVC
+"An error occured and %@ was not deleted!" = "C'è stato un errore e %@ non è stato cancellato!";
+"Info: %@" = "Info: %@";
+"%@ cannot be deleted?!" = "%@ non può essere cancellato?!";
+"An error occured and %@ could not be imported!" = "C'è stato un errore e %@ potrebbe non essere stato importato!";
+"Swipe or tap desired backup" = "Scorri o tocca il backup desiderato";
+"Delete" = "Cancella";
+"Type: %@" = "Scrivi: %@";
+
+// CreditsVC
+"Thank you to all who have helped!" = "Grazie a tutti coloro che hanno aiutato!";
+"Reachability project" = "Progetto di raggiungibilità";
+"Design inspiration (re: Electra)" = "Ispirazione per il design (riguardo: Electra)";
+"Bootstrap package identification" = "Identificazione del pacchetto Bootstrap";
+"Archival functions" = "Funzioni di archivio";
+"Icon artwork" = "Icona artwork";
+"German translation" = "Traduzione tedesca";
+"Turkish translation" = "Traduzione turca";
+"Japanese translation" = "Traduzione giapponese";
+"Russian translation" = "Traduzione russa";
+"Arabic translation" = "Traduzione araba";
+"Spanish translation" = "Traduzione spagnola";
+"Italian translation" = "Traduzione italiana";
+"Simplified Chinese translation" = "Traduzione cinese semplificato";
+"Taiwanese Mandarin translation" = "Traduzione mandarino taiwanese";
+
+// BackupManager
+"Failed to generate controls for installed packages!" = "Impossibile generare controlli per i pacchetti installati!";
+"Failed to generate list of packages!" = "Impossibile generare l'elenco dei pacchetti!";
+"%@ is blank?!" = "%@ è vuoto?!";
+"%@ has no contents!" = "%@ non ha contenuti!";
+"Failed to build debs! Not sure how we got here honestly." = "Impossibile creare il deb! Non sono sicuro di come siamo arrivati ​​qui, onestamente.";
+"Failed to get attributes for %@!" = "Impossibile ottenere gli attributi per %@!";
+"Failed to write generic files to %@ for %@!" = "Impossibile scrivere file generici su %@ per %@!";
+"Failed to copy generic files!" = "Impossibile copiare file generici!";
+"Failed to copy DEBIAN files!" = "Impossibile copiare file DEBIAN!";
+"Failed to build deb for %@!" = "Impossibile creare deb per %@!";
+"Failed to build final archive!" = "Impossibile creare l'archivio finale!";
+
+// GenManager
+"IAmLazy Error:" = "IAmLazy Errore:";
+"Your device does not appear to be connected to the internet" = "Sembra che il tuo dispositivo non sia connesso a Internet";
+"A network connection is required for restores so packages can be downloaded if need be" = "Per i ripristini è necessaria una connessione di rete in modo che i pacchetti possano essere scaricati se necessario";
+"Failed to create %@!" = "Impossibile creare %@!";
+"Failed to get contents of %@!" = "Impossibile ottenere il contenuto di %@!";
+"%@ is not writeable." = "%@ non è scrivibile.";
+"Please ensure that the directory's owner is mobile and not root." = "Assicurati che il proprietario della directory sia mobile e non root.";
+"A network connection is required for standard backups to determine if a given package is bootstrap-vended or not" = "Per i backup standard è necessaria una connessione di rete per determinare se un determinato pacchetto è distribuito tramite bootstrap o meno";
+"Failed to free dpkg lock!" = "Impossibile liberare il blocco dpkg!";
+"Failed to cleanup %@!" = "Impossibile pulire %@!";
+"Failed to update APT sources!" = "Impossibile aggiornare le sorgenti APT!";
+
+// RestoreManager
+"The backup dir does not exist!" = "La directory di backup non esiste!";
+"No backups were found!" = "Non è stato trovato alcun backup!";
+"The target backup -- %@ -- could not be found!" = "Impossibile trovare il backup di destinazione -- %@ --!";
+"The backup you're trying to restore from was made for jailbreaks using the %@ bootstrap." = "Il backup da cui stai tentando di ripristinare è stato creato per il jailbreak utilizzando il bootstrap %@.";
+"Your current jailbreak is using %@!" = "Il tuo jailbreak attuale utilizza %@!";
+"%@ is empty?!" = "%@ è vuota?!";
+"%@ has no debs!" = "%@ non ha debs!";
+"Failed to install %@!" = "Installazione fallita %@!";
+"The backup you're trying to restore from was made for %@ jailbreaks." = "Il backup da cui stai tentando di ripristinare è stato creato per %@ jailbreak.";
+"Your current jailbreak is %@!" = "Il tuo jailbreak attuale è %@!";
